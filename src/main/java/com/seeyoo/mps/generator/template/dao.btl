@@ -1,0 +1,15 @@
+package ${entity.daoPackage};
+
+import ${entity.entityPackage}.${entity.className};
+import org.springframework.data.jpa.repository.JpaRepository;
+import com.seeyoo.mps.generator.base.BaseRepository;
+
+import java.util.List;
+
+/**
+ * ${entity.description}数据处理层
+ * @author ${entity.author}
+ */
+public interface ${entity.className}Repository extends BaseRepository<${entity.className},${entity.primaryKeyType}>  {
+
+}
